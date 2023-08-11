@@ -1,16 +1,14 @@
 # weather
 
-A new Flutter project.
+A simple flutter project for getting current weather status and hourly forecast of a day.
 
-## Getting Started
+## Some information about the project
+* Uses [accuweather](https://developer.accuweather.com/apis) API to get the weather information
+* Used sqlite to store cities
 
-This project is a starting point for a Flutter application.
+## Packages
+* [dio](https://pub.dev/packages/dio) for `http` requests
+* [sqflite](https://pub.dev/packages/sqflite) to utilize `sqlite` and manage database
+* [path](https://pub.dev/packages/path) to set path to database using `join` function
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
